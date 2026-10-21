@@ -15,7 +15,7 @@ public class ScriptToJump : MonoBehaviour
     void Update()
     {
         if (Keyboard.current.spaceKey.isPressed){
-            rb.AddForce(transform.up*35f);
+            rb.AddForce(transform.up*13f);
         }
     }
 }
